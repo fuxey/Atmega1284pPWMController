@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "FanControl", "FanControl\FanControl.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uart", "Uart", "{1CDFAE8F-D64E-4BBD-AAE9-C5DA2CCCFF83}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Phasenanschnittsteuerung\Phasenanschnittssteuerung\Phasenanschnittssteuerung\Debugmessage.c = ..\..\Phasenanschnittsteuerung\Phasenanschnittssteuerung\Phasenanschnittssteuerung\Debugmessage.c
+		..\..\Phasenanschnittsteuerung\Phasenanschnittssteuerung\Phasenanschnittssteuerung\Debugmessage.h = ..\..\Phasenanschnittsteuerung\Phasenanschnittssteuerung\Phasenanschnittssteuerung\Debugmessage.h
+		Uart.c = Uart.c
+		Uart.h = Uart.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PWM", "PWM", "{1DCCFB3A-1B4A-4B4B-B87D-84BFC32F12D5}"
+	ProjectSection(SolutionItems) = preProject
+		Pwm.c = Pwm.c
+		Pwm.h = Pwm.h
+		Timer0Pwm.c = Timer0Pwm.c
+		Timer0Pwm.h = Timer0Pwm.h
+		Timer1Pwm.c = Timer1Pwm.c
+		Timer1Pwm.h = Timer1Pwm.h
+		Timer2Pwm.c = Timer2Pwm.c
+		Timer2Pwm.h = Timer2Pwm.h
+		Timer3Pwm.c = Timer3Pwm.c
+		Timer3Pwm.h = Timer3Pwm.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
